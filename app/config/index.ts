@@ -12,4 +12,3 @@ export * from './logger';
 export * from './modules';
 export * from './response';
 export * from './server';
-export * from './wetland';
