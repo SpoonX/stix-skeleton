@@ -1,5 +1,6 @@
 import * as config from './config';
-import stix, { Application, ApplicationModes, Config, createDebugLogger, ServerConfigInterface } from 'stix';
+import chalk from 'chalk';
+import stix, { Application, ApplicationModes, ServerService } from 'stix';
 
 /**
  * This file start is the entry point of your application.
@@ -13,12 +14,17 @@ import stix, { Application, ApplicationModes, Config, createDebugLogger, ServerC
  *  If you wish to see debug information including execution times, run `yarn debug`.
  */
 (async () => {
-  const debug = createDebugLogger('app');
-  const app: Application = await stix(config).launch(process.env.STIX_APPLICATION_MODE as ApplicationModes);
+  const mode: ApplicationModes = process.env.STIX_APPLICATION_MODE as ApplicationModes;
+  const app: Application = await stix(config).launch(mode);
 
-  if (app.getMode() === ApplicationModes.Server) {
-    const serverConfig = app.getServiceManager().get(Config).of<ServerConfigInterface>('server');
+  if (app.getMode() === ApplicationModes.Server && !app.isProduction()) {
+    const url = app
+      .getServiceManager()
+      .get(ServerService)
+      .getURL();
 
-    debug(`Server running on: ${serverConfig.url}:${serverConfig.port}`);
+    console.log(chalk`\n\t{bold {green Server ready. Happy hacking!}}`);
+    console.log(chalk`\n\t{bold Server:\t\t${url}}`);
+    console.log(chalk`\t{bold Swagger docs:\t${url}swagger/ui}\n`);
   }
 })();
