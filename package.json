@@ -1,6 +1,6 @@
 {
   "name": "stix-skeleton",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "tsc --build tsconfig.json",
     "dev": "ts-node-dev --transpileOnly app/app.ts",
@@ -9,8 +9,12 @@
   "main": "./dist/app.js",
   "license": "MIT",
   "dependencies": {
-    "stix": "^4.1.4",
-    "stix-gates": "^3.0.1"
+    "sqlite3": "^4.0.3",
+    "stix": "^4.2.0",
+    "stix-gates": "^3.0.3",
+    "stix-generator": "^0.0.3",
+    "stix-swagger": "^0.0.7",
+    "stix-wetland": "^1.1.6"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.30",
