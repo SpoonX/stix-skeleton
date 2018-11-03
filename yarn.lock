@@ -2854,9 +2854,9 @@ stix-gates@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/stix-gates/-/stix-gates-3.0.3.tgz#7ebe8b7802eab80d415b8fc9ff5eaa5a2cb0e4bf"
 
-stix-generator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/stix-generator/-/stix-generator-0.1.1.tgz#0e60b055d3af66472d8fbada1fef1e22154043ab"
+stix-generator@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/stix-generator/-/stix-generator-0.1.2.tgz#d7c599e59d5e94cae58a102cb4632a18e17d3d73"
   dependencies:
     tape-roller "^2.0.1"
     ts-simple-ast "^17.1.1"
