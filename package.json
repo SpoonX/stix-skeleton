@@ -10,11 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "sqlite3": "^4.0.3",
-    "stix": "^4.2.1",
-    "stix-gates": "^3.0.3",
+    "stix": "^4.5.2",
+    "stix-gates": "^3.0.6",
     "stix-generator": "^0.1.5",
-    "stix-swagger": "^0.0.7",
-    "stix-wetland": "^1.1.7"
+    "stix-schema": "^1.0.2",
+    "stix-security": "^0.0.7",
+    "stix-swagger": "^1.0.0",
+    "stix-wetland": "^1.1.10"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.30",
