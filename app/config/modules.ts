@@ -2,6 +2,8 @@ import { Gates } from 'stix-gates';
 import { Wetland } from 'stix-wetland';
 import SwaggerModule from 'stix-swagger';
 import GeneratorModule from 'stix-generator';
+import SchemaModule from 'stix-schema';
+import { Security } from 'stix-security';
 import { ModuleManagerConfigInterface } from 'Stix';
 import Application from '../module/Application';
 
@@ -22,11 +24,16 @@ import Application from '../module/Application';
  *
  *  @see https://github.com/SpoonX/stix-wetland
  *  @see https://github.com/SpoonX/stix-gates
+ *  @see https://github.com/SpoonX/stix-schema
+ *  @see https://github.com/SpoonX/stix-swagger
+ *  @see https://github.com/SpoonX/stix-security
  */
 export const modules: ModuleManagerConfigInterface = [
   GeneratorModule,
   Gates,
   Wetland,
+  Security,
+  SchemaModule,
   SwaggerModule,
   Application,
 ];
