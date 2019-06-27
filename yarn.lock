@@ -3326,10 +3326,10 @@ stix-generator@^0.1.6:
     tape-roller "^2.0.1"
     ts-morph "^2.3.0"
 
-stix-schema@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.2.tgz#76d6b57a676aa493e6d632109fd7aa48f387bb26"
-  integrity sha512-DSP94OZpW2wmzoVJnOX5FOa3jp7DCMDlDXMQjSlgzQ84Mu1Zk5rHCx1DlUvBiPboLs2/V6psvPE/izaX+udKHA==
+stix-schema@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.3.tgz#cecde6423ec0b33fcf4b1438f5c971568b1ca781"
+  integrity sha512-242nq4uCAB/AM+3X+z0GVgXdjlMO1afy3qquOb2Dg+2sW3i+MtCPiHnY9dPEeBZdc3lI5seIlm+qS57lITL2BQ==
   dependencies:
     "@types/joi" "^14.3.2"
     joi "^14.3.1"
@@ -3346,10 +3346,10 @@ stix-security@^0.0.7:
     stix "^4.3.2"
     stix-gates "^3.0.5"
 
-stix-swagger@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/stix-swagger/-/stix-swagger-1.0.0.tgz#383735c9727267378aea2e9c543dda8c2cab44b1"
-  integrity sha512-I9M0V/89uVm4T/K6+Ld0HeuCQEX6qos7kPdFEBDSyk7il2r7MysYw05i7beW+TvnWbWkFMCox9EUT4CLzz7HvA==
+stix-swagger@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/stix-swagger/-/stix-swagger-1.0.4.tgz#418b194c50e140440bb0d9de612208ff088e6c8b"
+  integrity sha512-Z8TgPlgUkyAvHDo0L44XtGrlWMFbExSWWROuaFp/IVkn8aESLpqlTiVCC/GFjezzhAa+N/x+VeN/LxikRnFcEw==
   dependencies:
     "@types/joi" "^14.3.2"
     joi "^14.3.1"
@@ -3357,14 +3357,14 @@ stix-swagger@^1.0.0:
     procurator "^3.0.1"
     stix "^4.5.2"
     stix-gates "^3.0.5"
-    stix-schema "^1.0.2"
+    stix-schema "^1.0.3"
     stix-security "^0.0.7"
-    stix-wetland "^1.1.4"
+    stix-wetland "^1.2.1"
 
-stix-wetland@^1.1.10, stix-wetland@^1.1.4:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/stix-wetland/-/stix-wetland-1.1.10.tgz#858307669d427bd8fd957990ac3aaefc3b5646bf"
-  integrity sha512-UFtJIdoi/LLXIcdNlJ1sP7cVCe64iOvCH68Q821l9Jrm9+nOU5R4/OYlRoORNSZQvVn1L3zkWhVPldmJiIdNZA==
+stix-wetland@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/stix-wetland/-/stix-wetland-1.2.1.tgz#50172688483f08db9b14578069a573bcab826c0d"
+  integrity sha512-mnnE/AE9kCRN19VNWhC1mRepPn0dXPjnxJdzf7Ues8mXTsQWiA+WymleZpe9KDkreHdf+PLX6qEqQigy3J0nVQ==
   dependencies:
     chalk "^2.4.1"
     to-datetime "^1.0.3"
