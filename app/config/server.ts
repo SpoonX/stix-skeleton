@@ -3,7 +3,7 @@ export const server = {
   port: 1991,
 
   // The url. Used by index.ts and meta modules such as stix-swagger.
-  hostname: 'http://localhost',
+  hostname: 'localhost',
 
   /**
    * Cross Origin Resource Sharing; usually needed for API servers.

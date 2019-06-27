@@ -13,10 +13,10 @@
     "stix": "^4.5.2",
     "stix-gates": "^3.0.6",
     "stix-generator": "^0.1.6",
-    "stix-schema": "^1.0.2",
+    "stix-schema": "^1.0.3",
     "stix-security": "^0.0.7",
-    "stix-swagger": "^1.0.0",
-    "stix-wetland": "^1.1.10"
+    "stix-swagger": "^1.0.4",
+    "stix-wetland": "^1.2.1"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.30",
