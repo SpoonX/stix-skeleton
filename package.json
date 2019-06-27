@@ -12,7 +12,7 @@
     "sqlite3": "^4.0.3",
     "stix": "^4.5.2",
     "stix-gates": "^3.0.6",
-    "stix-generator": "^0.1.5",
+    "stix-generator": "^0.1.6",
     "stix-schema": "^1.0.2",
     "stix-security": "^0.0.7",
     "stix-swagger": "^1.0.0",
