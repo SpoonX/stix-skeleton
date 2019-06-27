@@ -3313,10 +3313,15 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stix-gates@^3.0.5, stix-gates@^3.0.6:
+stix-gates@^3.0.5:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/stix-gates/-/stix-gates-3.0.6.tgz#3c1bacba4f7726d119d6786dab331ae252abece8"
   integrity sha512-HVQGExyvlLC9g4cdBhAdQHE3OxibU6aEECLDIalVyLcW0L4QYSe71TcI768meeoOrluvixbckLVXw/e8DgJNTQ==
+
+stix-gates@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/stix-gates/-/stix-gates-3.0.7.tgz#f07a947de90b6e22077427d7f77ac99cf1f673b0"
+  integrity sha512-oVTwQqSKlYSxDONuH27YufmjXeHCVxXPyfS7kATKxfPm5IdEz/jmV51+5uRK8/b8uLvGb9MErNVU7KcI5K4vFQ==
 
 stix-generator@^0.1.6:
   version "0.1.6"
@@ -3330,6 +3335,15 @@ stix-schema@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.3.tgz#cecde6423ec0b33fcf4b1438f5c971568b1ca781"
   integrity sha512-242nq4uCAB/AM+3X+z0GVgXdjlMO1afy3qquOb2Dg+2sW3i+MtCPiHnY9dPEeBZdc3lI5seIlm+qS57lITL2BQ==
+  dependencies:
+    "@types/joi" "^14.3.2"
+    joi "^14.3.1"
+    joi-extract-type "^0.1.8"
+
+stix-schema@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.4.tgz#cac95319959e02dabb6849c258d72b0345cfc439"
+  integrity sha512-mQ1FweA6v0oS16cCTKNCt//ra7rd5DGJzdo4+z8dhawcSjLUxtQmG/lp6XNQp87RR61rQl05MBVcFGYvy4AtkA==
   dependencies:
     "@types/joi" "^14.3.2"
     joi "^14.3.1"
