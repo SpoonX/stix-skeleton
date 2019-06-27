@@ -14,8 +14,8 @@
     "stix-gates": "^3.0.7",
     "stix-generator": "^0.1.6",
     "stix-schema": "^1.0.4",
-    "stix-security": "^0.0.7",
-    "stix-swagger": "^1.0.4",
+    "stix-security": "^0.0.8",
+    "stix-swagger": "^1.0.5",
     "stix-wetland": "^1.2.1"
   },
   "devDependencies": {

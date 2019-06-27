@@ -3313,11 +3313,6 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stix-gates@^3.0.5:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/stix-gates/-/stix-gates-3.0.6.tgz#3c1bacba4f7726d119d6786dab331ae252abece8"
-  integrity sha512-HVQGExyvlLC9g4cdBhAdQHE3OxibU6aEECLDIalVyLcW0L4QYSe71TcI768meeoOrluvixbckLVXw/e8DgJNTQ==
-
 stix-gates@^3.0.7:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/stix-gates/-/stix-gates-3.0.7.tgz#f07a947de90b6e22077427d7f77ac99cf1f673b0"
@@ -3331,15 +3326,6 @@ stix-generator@^0.1.6:
     tape-roller "^2.0.1"
     ts-morph "^2.3.0"
 
-stix-schema@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.3.tgz#cecde6423ec0b33fcf4b1438f5c971568b1ca781"
-  integrity sha512-242nq4uCAB/AM+3X+z0GVgXdjlMO1afy3qquOb2Dg+2sW3i+MtCPiHnY9dPEeBZdc3lI5seIlm+qS57lITL2BQ==
-  dependencies:
-    "@types/joi" "^14.3.2"
-    joi "^14.3.1"
-    joi-extract-type "^0.1.8"
-
 stix-schema@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/stix-schema/-/stix-schema-1.0.4.tgz#cac95319959e02dabb6849c258d72b0345cfc439"
@@ -3349,30 +3335,30 @@ stix-schema@^1.0.4:
     joi "^14.3.1"
     joi-extract-type "^0.1.8"
 
-stix-security@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/stix-security/-/stix-security-0.0.7.tgz#6e0164e0d6dbc17769252f2df276835d85966a46"
-  integrity sha512-Srxsyz7NOU0gWUHsvLIW6cZdS1jllZ3M/lEOSS5ZBWAzAzh4sG7bPXEzvDC2Cl66bKuWsTOy94YroRGbP4lFMQ==
+stix-security@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/stix-security/-/stix-security-0.0.8.tgz#71378497f9772de41855a43fa0ee5c4c4e841835"
+  integrity sha512-5zIGr79xuGOMKn4BuCUXkKPSU2FGWjrXPmSBQ8/gZh/Af1iUJqM6FxomfI4o6bq99TQzAg2OqwKLvAhUmmaOIA==
   dependencies:
     "@types/jsonwebtoken" "^8.3.0"
     jsonwebtoken "^8.4.0"
     openapi3-ts "^1.2.0"
     stix "^4.3.2"
-    stix-gates "^3.0.5"
+    stix-gates "^3.0.7"
 
-stix-swagger@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/stix-swagger/-/stix-swagger-1.0.4.tgz#418b194c50e140440bb0d9de612208ff088e6c8b"
-  integrity sha512-Z8TgPlgUkyAvHDo0L44XtGrlWMFbExSWWROuaFp/IVkn8aESLpqlTiVCC/GFjezzhAa+N/x+VeN/LxikRnFcEw==
+stix-swagger@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/stix-swagger/-/stix-swagger-1.0.5.tgz#29f2abd4ecbd89b95c47a8aaa7b5b4765612e960"
+  integrity sha512-l7xgWBZu6LHe1brJB9Sex7uSvIKADvgYSCX6fu0nZF1dS9PZvRzDedcKaVqMc7psLuUuiG2GG7zM+C486oQAOQ==
   dependencies:
     "@types/joi" "^14.3.2"
     joi "^14.3.1"
     joi-to-openapi "^1.0.3"
     procurator "^3.0.1"
     stix "^4.5.2"
-    stix-gates "^3.0.5"
-    stix-schema "^1.0.3"
-    stix-security "^0.0.7"
+    stix-gates "^3.0.7"
+    stix-schema "^1.0.4"
+    stix-security "^0.0.8"
     stix-wetland "^1.2.1"
 
 stix-wetland@^1.2.1:
